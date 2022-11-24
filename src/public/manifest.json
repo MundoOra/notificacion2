@@ -1,0 +1,17 @@
+{
+    "name": "notificacion2",
+    "short_name": "notificacion2",
+    "theme_color": "#5f3fd5",
+    "background_color": "#5f3fd5",
+    "display": "fullscreen",
+    "orientation": "portrait",
+    "scope": "./",
+    "start_url": "./",
+    "icons": [
+        {
+            "src": "./icono.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notificacion</title>
+    <link rel="manifest" href="src/public/manifest.json">
+    <script type="text/javascript">
+        if ("serviceWorker" in navigator) {
+          navigator.serviceWorker.register("sw.js");
+        }
+      </script>
+</head>
+<body>
+    <h1>portada</h1>
+    <br>
+       
+    <button onclick="location.href='src/public/index.html'">play</button>
+
+</body>
+</html>
